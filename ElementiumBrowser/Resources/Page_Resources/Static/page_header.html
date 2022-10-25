@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>{title}</title>
+
+    <style name="old-style" >
+
+        html, body {
+
+            margin: 0;
+
+            width: 100%;
+            height: 100%;
+
+            font-family: "Segoe UI", Arial;
+            font-size: 20px;
+
+            user-select: none;
+
+            overflow: hidden;
+
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: whitesmoke;
+        }
+
+        a:active {
+            color: lightgray;
+        }
+
+        a:visited {
+            color: white;
+        }
+
+    </style>
+    <style>
+
+        body, html {
+            width: 100%;
+            height: 100%;
+            font-family: "Segoe UI";
+            margin: 0;
+        }
+
+        header {
+            width: 100%;
+            height: 54px;
+            background-color: royalblue;
+
+            display: flex;
+            align-items: center;
+            box-shadow: 3px 3px 3px lightgrey;
+            padding: 3px;
+            margin-bottom: 5px;
+        }
+
+        .buttons-container {
+            margin-left: 8px;
+        }
+
+        .title {
+            color: white;
+            margin-left: 8px;
+            font-size: 20px;
+        }
+
+        .btn {
+            color: white;
+            padding: 8px;
+            text-decoration: none;
+            transition: all .5s;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            color: lightblue;
+            transition: all .5s;
+        }
+
+       
+
+    </style>
+
+    <script>{jquery}</script>
+</head>
+<body>
+<header>
+
+    <a href="xale://home" class="btn title">Elementium Browser</a>
+    <div class="buttons-container">
+        <a href="xale://history" class="btn">Geçmiş</a>
+        <a href="xale://downloads" class="btn">İndirilenler</a>
+        <a href="xale://settings" class="btn">Ayarlar</a>
+    </div>
+
+</header>
+
